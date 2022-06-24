@@ -28,3 +28,4 @@ sabre(luke, verde).
 
 %Regras
 sith(X):- personagem(X, starwars), sabre(X, vermelho).
+personagemespacial(X):- personagem(X, Y), tema(Y, espacial).
